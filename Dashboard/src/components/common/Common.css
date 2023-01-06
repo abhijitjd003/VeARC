@@ -1,0 +1,147 @@
+.home-body-message {
+    color: #495057;
+    font: 28px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    text-align: center;
+    margin-top: 24%;
+}
+
+.home-body {
+    color: #495057;
+    font: 28px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.error {
+    color: orangered;
+}
+
+.header-color{
+    background-color: #347f58;
+}
+
+.header-text-color{
+    color: #f16623;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dashboard-text-color{
+    color: #347f58;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dashboard-text{
+    font-size: 48px;
+    color: #347f58;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dashboard-text-md{
+    font-size: 14px;
+    color: #347f58;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.dashboard-sub-text{
+    font-size: 11px;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.graph-sub-text{
+    font-size: 12px;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.error-main {
+    color: orangered;
+    font-size: 15px;
+    text-align: center;
+}
+
+.custom-btn-success-test {
+    background-color: #487cab;
+    color: #487cab;
+}
+
+.frame-full-height {
+    height: 85vh;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.header-font {
+    color: white;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.vertical-line {
+    border-left: 1px solid gray;
+    height: 40px;
+    margin: 0px 5px 0px 5px;
+}
+
+.marginTop {
+    margin-top: 25px;
+}
+
+.drawerItems {
+    color: gray;
+}
+
+.drawerItemsText {
+    margin-left: 18px;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.selectTopMargin{
+    margin-top: 16px;
+}
+
+.buttonTopMargin {
+    margin-top: 0px;
+}
+
+.custom-button {
+    background-color: #0079c2;
+}
+
+.ag-theme-alpine .ag-header-cell {
+    background-color: #02a959;
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.table-header-custom {
+    background-color: #02a959;    
+}
+.table-row-custom {
+    color: white;
+}
+
+.grid-row-even {
+    background-color: #f2f2f2 !important;
+}
+
+.grid-row-odd {
+    background-color: white !important;
+}
+
+.ag-row-hover {
+    background-color: #ddd !important;
+}
+
+.ag-header-cell-label {
+    justify-content: center;
+}
+
+.my-class{
+    text-align: center;
+}

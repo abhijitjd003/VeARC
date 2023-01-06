@@ -1,0 +1,41 @@
+.modal-header {
+    /*width: 100%;*/
+    /*border-bottom: 1px solid #ff9800;*/
+    font-size: 22px;
+    /*padding: 30px;*/
+    color: #ff9800 !important;
+}
+
+.modal-custom {
+    font-size: 12px;
+    width: 100%;    
+}
+    .modal-custom > .content {
+        width: 100%;
+        padding: 30px 30px;
+    }
+
+        .modal-custom > .close-icon{
+            margin: 20px 20px 0 0;
+        }
+
+        .modal-custom > .actions {
+            width: 100%;
+            padding: 10px 5px;
+            margin: auto;
+            text-align: right;
+        }
+
+    .modal-custom > .close {
+        cursor: pointer;
+        position: absolute;
+        display: block;
+        padding: 2px 5px;
+        line-height: 20px;
+        right: -10px;
+        top: -10px;
+        font-size: 24px;
+        background: #ffffff;
+        border-radius: 18px;
+        border: 1px solid #cfcece;
+    }

@@ -1,0 +1,48 @@
+.modal-custom {
+    font-size: 12px;
+    width: 100%;
+}
+
+    .modal-custom > .header {
+        width: 100%;
+        border-bottom: 1px solid #f16623;
+        font-size: 24px;        
+        padding: 5px;
+        color: #f16623 !important;
+    }
+
+    .modal-custom > .content {
+        width: 100%;
+        padding: 5px 25px;
+    }
+
+    .modal-custom > .content-confirm {
+        width: 100%;
+        padding: 30px 30px;
+    }
+
+    .modal-custom > .content-reject {
+        width: 100%;
+        padding: 15px 30px 30px 30px;
+    }
+
+    .modal-custom > .actions {
+        /*width: 100%;*/
+        padding: 10px 10px;
+        /*margin: auto;*/
+        /*text-align: center;*/
+    }
+
+    .modal-custom > .close {
+        cursor: pointer;
+        position: absolute;
+        display: block;
+        padding: 2px 5px;
+        line-height: 20px;
+        right: -10px;
+        top: -10px;
+        font-size: 24px;
+        background: #ffffff;
+        border-radius: 18px;
+        border: 1px solid #cfcece;
+    }
