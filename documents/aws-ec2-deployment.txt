@@ -1,0 +1,54 @@
+1. Upload all files to s3 bucket
+2. Copy S3 URI -> s3://edwhat-build-01/frontend-build/
+
+In Console:
+1. sudo su (for root user)
+2. to see working directory -> pwd
+3. ll -> list the contents
+4. cd frontend/
+5. rm -rf src (to remove files/folders)
+6. copy from s3 to ec2 -> sudo aws s3 cp s3://edwhat-build-01/backend-core/ . --recursive
+6. copy from s3 to ec2 -> sudo aws s3 cp s3://edwhat-build-01/build/ . --recursive
+7. sudo yarn install
+8. sudo yarn build
+9. if core-js issue -> yarn add core-js@3.13
+10. to update file like app.js -> sudo vi App.js
+11. ctr+c and :wq
+12. cat App.js (content of file)
+
+Hosting:
+1. cd /var/www/html/
+2. cd /home/ec2-user/
+3. sudo cp -f -R ./build/* /var/www/html/
+4. cd /var/www/html/
+
+node-js:
+1. copy from s3 to ec2 -> sudo aws s3 cp s3://edwhat-build-01/backend-build/ . --recursive
+2. sudo npm install
+3. nohup node index.js > stdout.txt 2> stderr.txt &
+4. sudo netstat -tulpn | grep LISTEN
+5. kill -9 13552
+
+
+2. To remove existing files -> sudo rm -rf *
+3. To cpoy files into ec2 from s3 bucket -> sudo aws s3 cp  s3://edwhat-build-01/frontend-v1/ . --recursive
+
+error: Unable to locate credentials
+
+1. aws configure
+2. aws configure list
+
+dotnet > EDWhatCoreAPI -> sudo dotnet publish -f netcoreapp3.1 -c Release
+sudo nohup /home/ec2-user/edwhatcoreapi/bin/Release/netcoreapp3.1/EDWhatCoreAPI > stdout.txt 2> stderr.txt &
+sudo nohup /home/ubuntu/dotnet/EDWhatCoreAPI/bin/Release/netcoreapp3.1/EDWhatCoreAPI > stdout.txt 2> stderr.txt &
+
+webBuilder.UseUrls("http://*:5000", "https://*:5001");
+
+sudo aws s3 cp s3://shutterifie-builds/ShutterifieAPI/ . --recursive
+
+sudo nohup /home/ec2-user/edwhatcoreapi/bin/Release/netcoreapp3.1/EDWhatCoreAPI > stdout.txt 2> stderr.txt &
+
+remove https certificate: dotnet dev-certs https --clean
+create https certificate: dotnet dev-certs https --trust
+
+7892783686
